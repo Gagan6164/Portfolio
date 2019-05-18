@@ -5,7 +5,8 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
-import { Progress, Segment } from "semantic-ui-react";
+import { Progress } from "react-sweet-progress";
+import "react-sweet-progress/lib/style.css";
 
 export default class Skills extends Component {
   render() {
@@ -13,33 +14,41 @@ export default class Skills extends Component {
       <Element className="skills" name="skills">
         <center>
           <h1>SKILLS</h1>
+          <center>
+            <img
+              src={require("../../static/images/section-divider.png")}
+              alt="anything"
+            />
+          </center>
         </center>
         <div className="column">
           <div className="row">
-            <Segment inverted>
-              <div className="linear">
-                <Progress percent={85} inverted color="blue" active progress />
+            <div className="linear">
+              <div>Python</div>
+              <div className="lang">
+                <Progress percent={95} />
               </div>
-              <div className="linear">
-                <Progress percent={85} inverted color="blue" active progress />
+            </div>
+            <div className="linear">
+              <div>Matlab</div>
+              <div className="lang">
+                <Progress percent={90} />
               </div>
-              <div className="linear">
-                <Progress percent={85} inverted color="blue" active progress />
-              </div>
-            </Segment>
+            </div>
           </div>
           <div className="row">
-            <Segment inverted>
-              <div className="linear">
-                <Progress percent={85} inverted color="blue" progress />
+            <div className="linear">
+              <div>Fortran77</div>
+              <div className="lang">
+                <Progress percent={81} />
               </div>
-              <div className="linear">
-                <Progress percent={85} inverted color="blue" progress />
+            </div>
+            <div className="linear">
+              <div>Javascript</div>
+              <div className="lang">
+                <Progress percent={50} />
               </div>
-              <div className="linear">
-                <Progress percent={85} inverted color="blue" progress />
-              </div>
-            </Segment>
+            </div>
           </div>
         </div>
         <center>

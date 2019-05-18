@@ -1,6 +1,10 @@
 .about {
   background: #ffffff;
-  padding: 4.5rem 7.2vw;
+  padding: 5rem 7.2vw;
+  h1 {
+    font-size: 6vh;
+    margin: 0 0;
+  }
   .container {
     display: grid;
     grid-template-columns: auto auto;

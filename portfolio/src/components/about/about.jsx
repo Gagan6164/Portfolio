@@ -6,6 +6,15 @@ export default class About extends Component {
   render() {
     return (
       <Element className="about" name="about">
+        <center>
+          <h1>ABOUT ME</h1>
+          <center>
+            <img
+              src={require("../../static/images/section-divider.png")}
+              alt="anything"
+            />
+          </center>
+        </center>
         <div className="container">
           <div>
             <center>
@@ -16,7 +25,7 @@ export default class About extends Component {
             </center>
           </div>
           <div className="about_me">
-            <h1>HELLO IT'S MY STORY</h1>
+            <h2>HELLO IT'S MY STORY</h2>
             <p>
               I am a sophomore at IIT Roorkee, studying B. Tech. Engineering
               Physics. I have a keen interest in Programming. My areas of
@@ -24,7 +33,7 @@ export default class About extends Component {
               play with tech around me. I'm a quick learner and a problem solver
               with an experience in the web development and data science.
             </p>
-            <h1>WHAT I DO ?</h1>
+            <h2>WHAT I DO ?</h2>
             <div className="grid">
               <div className="window">
                 <center>

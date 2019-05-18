@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.18.1",
     "d3-ease": "^1.0.5",
     "faker": "^4.1.0",
     "lodash": "^4.17.11",
@@ -19,6 +20,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.11",
+    "react-sweet-progress": "^1.1.2",
     "react-typing-effect": "^2.0.2",
     "semantic-ui-react": "^0.87.1"
   },
