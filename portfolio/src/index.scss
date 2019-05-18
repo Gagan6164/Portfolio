@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 18px;
 }
 
@@ -16,15 +15,6 @@ h1 {
   padding: 0 0 0.5em 0;
   position: relative;
   display: inline-block;
-
-  &::after {
-    border-bottom: 3px solid rgba(#f03c3c, 1);
-    content: "";
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    position: absolute;
-  }
 }
 
 h2 {

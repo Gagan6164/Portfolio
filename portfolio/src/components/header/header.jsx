@@ -1,43 +1,97 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import "./header.scss";
-import { NavLink } from "react-router-dom";
-import { withRouter } from "react-router-dom";
+import Home from "../../components/home/home";
+import About from "../../components/about/about";
 
-class Header extends Component {
+export default class Header extends Component {
+  componentDidMount() {
+    if (window.innerWidth >= 900) {
+      window.onscroll = function() {
+        if (window.pageYOffset === 0) {
+          document.getElementById("heade").classList.remove("scroll");
+        } else {
+          document.getElementById("heade").classList.add("scroll");
+        }
+      };
+    }
+  }
   render() {
     return (
-      <div id="heade" className="heade">
-        <span>
-          <NavLink activeClassName="a" to="/">
-            <span className="a"> Gagan Singh Saini </span>
-          </NavLink>
-        </span>
-        <span id="nav" className="nav_array">
-          <ul className="nav">
-            <li id="home">
-              <NavLink exact={true} to="/">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink id="about" to="/about">
-                About
-              </NavLink>
-            </li>
-            <li id="projects">
-              <NavLink to="/projects"> projects </NavLink>
-            </li>
-            <li id="skills">
-              <NavLink to="/skills"> Skills </NavLink>
-            </li>
-            <li id="contact">
-              <NavLink to="/contact"> Contact </NavLink>
-            </li>
-          </ul>
-        </span>
-      </div>
+      <>
+        <div id="heade" className="nav">
+          <span className="nav_brand">
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Gagan Singh Saini
+            </Link>
+          </span>
+
+          <span className="nav_array">
+            <Link
+              activeClass="nav_array_active"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Home
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              About
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Projects
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Skills
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Contact
+            </Link>
+          </span>
+        </div>
+        <Home />
+        <About />
+      </>
     );
   }
 }
-
-export default withRouter(Header);

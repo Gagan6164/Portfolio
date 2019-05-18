@@ -1,0 +1,15 @@
+.about {
+  background: #f5f5f5;
+  padding: 4.5rem 7.2vw;
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 4rem;
+    position: relative;
+    padding: 0 6vw 0 6vw;
+
+    .about_desc {
+      line-height: 140%;
+    }
+  }
+}
