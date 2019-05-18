@@ -1,0 +1,28 @@
+.skills {
+  margin: 5vh 17vw 5vh 17vw;
+  color: #ffffff;
+  h1 {
+    font-size: 6vh;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    position: relative;
+    margin-top: 5vh;
+    z-index: 1000;
+    margin-bottom: 5vh;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-column-gap: 2rem;
+    position: relative;
+    margin-top: 5vh;
+
+    .text {
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}

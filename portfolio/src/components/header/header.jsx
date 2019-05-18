@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import "./header.scss";
 import Home from "../../components/home/home";
 import About from "../../components/about/about";
+import Skills from "../../components/skills/skills";
 
 export default class Header extends Component {
   componentDidMount() {
@@ -91,6 +92,7 @@ export default class Header extends Component {
         </div>
         <Home />
         <About />
+        <Skills />
       </>
     );
   }

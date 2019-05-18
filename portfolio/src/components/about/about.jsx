@@ -9,7 +9,10 @@ export default class About extends Component {
         <div className="container">
           <div>
             <center>
-              <img src={require("../../static/images/about-me.png")} />
+              <img
+                src={require("../../static/images/about-me.png")}
+                alt="anything"
+              />
             </center>
           </div>
           <div className="about_me">
