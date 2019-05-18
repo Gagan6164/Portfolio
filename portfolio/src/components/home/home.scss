@@ -9,7 +9,7 @@
   .overlay {
     position: fixed;
     z-index: -100;
-    background-image: url("./images/background.jpg");
+    background-image: url("../../static/images/background.jpg");
     top: 0;
     left: 0;
     right: 0;
@@ -36,8 +36,8 @@
   .home_name {
     text-align: center;
     line-height: 1.4em;
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 300;
   }
   .home_det {
     text-align: center;
