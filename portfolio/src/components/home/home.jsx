@@ -144,16 +144,16 @@ export default class Home extends Component {
         </div>
         <Plx className="MyAwesomeParallax" parallaxData={ParallaxData}>
           <div>
-            <div className="home_name">H! it's me Gagan</div>
-            <div className="home_det">
+            <div className="title">Hello it's me Gagan</div>
+            <div className="about_me">
               <ReactTypingEffect
-                text={["Hello", "World"]}
-                staticText="I am a "
+                text={["AN ENGINEER.", "A DATA ANALYST.", "A DEVELOPER."]}
+                staticText="I'M "
                 speed="100"
                 eraseDelay="100"
               />
             </div>
-            <div className="home_abt">
+            <div className="abt">
               <Link
                 activeClass="nav_array_active"
                 to="about"

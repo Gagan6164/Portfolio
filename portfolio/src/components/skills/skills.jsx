@@ -71,7 +71,8 @@ export default class Skills extends Component {
                     text={`${roundedValue}%`}
                     styles={buildStyles({
                       pathTransition: "none",
-                      textColor: "#ffffff"
+                      textColor: "#ffffff",
+                      pathColor: `rgba(21, 141, 228, ${value / 100})`
                     })}
                     strokeWidth={6}
                   />
@@ -96,7 +97,8 @@ export default class Skills extends Component {
                     text={`${roundedValue}%`}
                     styles={buildStyles({
                       pathTransition: "none",
-                      textColor: "#ffffff"
+                      textColor: "#ffffff",
+                      pathColor: `rgba(21, 141, 228, ${value / 100})`
                     })}
                     strokeWidth={6}
                   />
@@ -121,7 +123,8 @@ export default class Skills extends Component {
                     text={`${roundedValue}%`}
                     styles={buildStyles({
                       pathTransition: "none",
-                      textColor: "#ffffff"
+                      textColor: "#ffffff",
+                      pathColor: `rgba(21, 141, 228, ${value / 100})`
                     })}
                     strokeWidth={6}
                   />
@@ -146,7 +149,8 @@ export default class Skills extends Component {
                     text={`${roundedValue}%`}
                     styles={buildStyles({
                       pathTransition: "none",
-                      textColor: "#ffffff"
+                      textColor: "#ffffff",
+                      pathColor: `rgba(21, 141, 228, ${value / 100})`
                     })}
                     strokeWidth={6}
                   />
@@ -171,7 +175,8 @@ export default class Skills extends Component {
                     text={`${roundedValue}%`}
                     styles={buildStyles({
                       pathTransition: "none",
-                      textColor: "#ffffff"
+                      textColor: "#ffffff",
+                      pathColor: `rgba(21, 141, 228, ${value / 100})`
                     })}
                     strokeWidth={6}
                   />
@@ -196,7 +201,8 @@ export default class Skills extends Component {
                     text={`${roundedValue}%`}
                     styles={buildStyles({
                       pathTransition: "none",
-                      textColor: "#ffffff"
+                      textColor: "#ffffff",
+                      pathColor: `rgba(21, 141, 228, ${value / 100})`
                     })}
                     strokeWidth={6}
                   />

@@ -9,7 +9,7 @@
   right: 0;
   color: white;
   transition: 0.4s ease all;
-  z-index: 1000;
+  z-index: 10000;
 
   .nav_brand {
     font-size: 1.25rem;
@@ -39,14 +39,14 @@
 }
 
 .scroll {
-  background: rgb(90, 134, 216);
-  color: #ffffff;
+  background: rgb(255, 255, 255);
+  color: #000000;
   padding: 1em 7vw;
-  box-shadow: 0px 6px 16px rgba(44, 46, 167, 0.34);
+  box-shadow: 0px 6px 16px rgba(124, 124, 124, 0.34);
 
   .nav_array_active {
     &::after {
-      border-bottom-color: #ffffff;
+      border-bottom-color: #000000;
     }
   }
 }
