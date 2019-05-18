@@ -3,7 +3,7 @@
   top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 2.75rem 7.2vw;
+  padding: 1rem 3.6vw;
   transition: 0.5s ease;
   z-index: 100;
   left: 0;
@@ -16,13 +16,13 @@
     line-height: normal;
     font-size: 1rem;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #c77171;
+    color: #ffffff;
     display: grid;
     align-items: center;
 
     .a {
-      color: #681e1e;
+      color: #ffffff;
+      text-decoration: none;
     }
   }
 
@@ -42,22 +42,15 @@
           font-weight: bold;
           line-height: normal;
           font-size: 1em;
-          letter-spacing: 0.02em;
-          text-transform: uppercase;
-
-          color: rgba($color: #c98080, $alpha: 0.5);
+          border-bottom: none;
+          color: rgba($color: #ffffff, $alpha: 0.5);
+          text-decoration: none;
         }
 
         .active,
         .active:hover {
-          color: rgba($color: #a71c1c, $alpha: 1);
-        }
-      }
-
-      li:hover {
-        a {
-          opacity: 1;
-          color: rgb(153, 34, 34);
+          color: rgba($color: #ffffff, $alpha: 1);
+          border-bottom: 2px solid #fff;
         }
       }
     }
