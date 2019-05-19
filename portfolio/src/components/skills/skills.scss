@@ -1,9 +1,11 @@
 .skills {
-  padding: 2rem 12vw;
+  padding: 5rem 7.2vw;
+  z-index: -10000;
   color: #ffffff;
-  background: rgba(67, 118, 194, 0.5) h1 {
+  h1 {
     font-size: 6vh;
     margin: 0 0;
+    color: #ffffff;
   }
   .column {
     display: grid;

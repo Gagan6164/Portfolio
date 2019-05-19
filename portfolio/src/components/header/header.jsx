@@ -4,6 +4,8 @@ import "./header.scss";
 import Home from "../../components/home/home";
 import About from "../../components/about/about";
 import Skills from "../../components/skills/skills";
+import Project from "../../components/projects/projects";
+import Contact from "../../components/contact/contact";
 
 export default class Header extends Component {
   componentDidMount() {
@@ -58,17 +60,6 @@ export default class Header extends Component {
 
             <Link
               activeClass="nav_array_active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="nav_items"
-            >
-              Projects
-            </Link>
-
-            <Link
-              activeClass="nav_array_active"
               to="skills"
               spy={true}
               smooth={true}
@@ -76,6 +67,17 @@ export default class Header extends Component {
               className="nav_items"
             >
               Skills
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="project"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Projects
             </Link>
 
             <Link
@@ -93,6 +95,8 @@ export default class Header extends Component {
         <Home />
         <About />
         <Skills />
+        <Project />
+        <Contact />
       </>
     );
   }

@@ -43,6 +43,7 @@ export default class About extends Component {
                       height: "10vh",
                       width: "auto"
                     }}
+                    alt="anything"
                   />
                   <h3>Deep Learning</h3>
                 </center>
@@ -62,6 +63,7 @@ export default class About extends Component {
                       height: "10vh",
                       width: "auto"
                     }}
+                    alt="anything"
                   />
                   <h3>Competitive Programming</h3>
                 </center>
@@ -81,6 +83,7 @@ export default class About extends Component {
                       height: "10vh",
                       width: "auto"
                     }}
+                    alt="anything"
                   />
                   <h3>Web development</h3>
                 </center>

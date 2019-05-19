@@ -139,8 +139,9 @@ export default class Home extends Component {
     return (
       <Element name="home" className="home">
         <div className="overlay">
-          <Particles params={particleData} />
-          <span />
+          <span>
+            <Particles params={particleData} />
+          </span>
         </div>
         <Plx className="MyAwesomeParallax" parallaxData={ParallaxData}>
           <div>
