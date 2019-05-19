@@ -27,7 +27,7 @@ export default class Header extends Component {
               spy={true}
               smooth={true}
               duration={500}
-              className="nav_items"
+              className="nav_item_brand"
             >
               Gagan Singh Saini
             </Link>

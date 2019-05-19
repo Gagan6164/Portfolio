@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 .nav {
   display: flex;
   padding: 1.5em 7vw;
@@ -14,8 +15,15 @@
   .nav_brand {
     font-size: 1.25rem;
     font-weight: 600;
+    font-family: "Sacramento", cursive;
   }
 
+  .nav_item_brand {
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 1000;
+    margin: 0 0 0 2.5em;
+  }
   .nav_items {
     padding: 0 0 0.25em;
     font-size: 1.2rem;
