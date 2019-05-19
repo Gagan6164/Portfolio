@@ -37,6 +37,13 @@ export default class About extends Component {
             <div className="grid">
               <div className="window">
                 <center>
+                  <img
+                    src="https://img.icons8.com/ios/100/000000/artificial-intelligence.png"
+                    style={{
+                      height: "10vh",
+                      width: "auto"
+                    }}
+                  />
                   <h3>Deep Learning</h3>
                 </center>
                 <ul>
@@ -49,6 +56,13 @@ export default class About extends Component {
               </div>
               <div className="window">
                 <center>
+                  <img
+                    src="https://img.icons8.com/ios/100/000000/developer.png"
+                    style={{
+                      height: "10vh",
+                      width: "auto"
+                    }}
+                  />
                   <h3>Competitive Programming</h3>
                 </center>
                 <ul>
@@ -61,6 +75,13 @@ export default class About extends Component {
               </div>
               <div className="window">
                 <center>
+                  <img
+                    src="https://img.icons8.com/ios/100/000000/atom-editor.png"
+                    style={{
+                      height: "10vh",
+                      width: "auto"
+                    }}
+                  />
                   <h3>Web development</h3>
                 </center>
                 <ul>
